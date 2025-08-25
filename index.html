@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Global Tech Summit 2025</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Global Tech Summit 2025</h1>
+      <nav id="navbar">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#register">Register</a></li>
+        </ul>
+      </nav>
+      <button id="menu-toggle">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Join the world's top tech minds</h2>
+      <p>August 20–22, 2025 | San Francisco, USA</p>
+      <a href="#register" class="btn">Register Now</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About the Summit</h2>
+      <p>This summit brings together leading tech innovators, developers, and researchers from across the globe. Expect keynotes, panels, and hands-on workshops focused on AI, Cloud Computing, Cybersecurity, and more.</p>
+    </div>
+  </section>
+
+  <section id="speakers" class="section light">
+    <div class="container">
+      <h2>Featured Speakers</h2>
+      <div class="speakers">
+        <div class="speaker">
+          <img src="images/image.summit1.jpg" alt="Speaker 1">
+          <h3>DR Patrick</h3>
+          <p>CTO, FutureTech</p>
+        </div>
+        <div class="speaker">
+          <img src="https://via.placeholder.com/150" alt="Speaker 2">
+          <h3>John Smith</h3>
+          <p>Lead AI Researcher, BrainLab</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="schedule" class="section">
+    <div class="container">
+      <h2>Schedule Overview</h2>
+      <ul>
+        <li><strong>Day 1:</strong> Keynotes & Panels</li>
+        <li><strong>Day 2:</strong> Workshops & Networking</li>
+        <li><strong>Day 3:</strong> Product Demos & Hackathon</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="register" class="section light">
+    <div class="container">
+      <h2>Register Now</h2>
+      <p>Don’t miss your chance to be part of the future of technology.</p>
+      <a href="#" class="btn">Get Your Ticket</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Global Tech Summit. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Toggle nav on mobile
+    const menuToggle = document.getElementById("menu-toggle");
+    const navbar = document.getElementById("navbar");
+    menuToggle.addEventListener("click", () => {
+      navbar.classList.toggle("show");
+    });
+  </script>
+</body>
+</html>
